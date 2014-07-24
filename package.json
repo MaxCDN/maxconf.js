@@ -6,6 +6,10 @@
   "scripts": {
     "test": "node ./maxconf_test.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxcdn/maxconf.js.git"
+  },
   "keywords": [
     "maxcdn",
     "configuration",

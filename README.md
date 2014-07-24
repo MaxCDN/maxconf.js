@@ -1,4 +1,4 @@
-# maxconf.js
+### maxconf.js [![Build Status](https://travis-ci.org/MaxCDN/maxconf.js.svg)](https://travis-ci.org/MaxCDN/maxconf.js)
 
 A sub-stack lib for loading [MaxCDN](http://www.maxcdn.com/) configuration files using the standard set forth by [MaxCLI](https://github.com/MaxCDN/maxcli).
 
