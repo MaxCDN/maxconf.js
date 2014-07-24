@@ -1,0 +1,23 @@
+{
+  "name": "maxconf.js",
+  "version": "0.0.1",
+  "description": "A sub-stack lib for loading MaxCDN configuration files using the standard set forth by MaxCLI.",
+  "main": "maxconf.js",
+  "scripts": {
+    "test": "node ./maxconf_test.js"
+  },
+  "keywords": [
+    "maxcdn",
+    "configuration",
+    "maxcli",
+    "node-maxcdn"
+  ],
+  "author": "Joshua P Mervine <joshua@mervine.net>",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^3.1.0"
+  },
+  "devDependencies": {
+    "tape": "^2.13.4"
+  }
+}
