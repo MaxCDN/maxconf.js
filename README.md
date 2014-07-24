@@ -2,6 +2,14 @@
 
 A sub-stack lib for loading [MaxCDN](http://www.maxcdn.com/) configuration files using the standard set forth by [MaxCLI](https://github.com/MaxCDN/maxcli).
 
+#### Install
+
+```
+npm install maxconf.js
+```
+
+#### Use
+
 ```javascript
 /****
  * option: default   :: description
