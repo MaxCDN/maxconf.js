@@ -1,6 +1,6 @@
 {
   "name": "maxconf.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A sub-stack lib for loading MaxCDN configuration files using the standard set forth by MaxCLI.",
   "main": "maxconf.js",
   "scripts": {
@@ -22,9 +22,9 @@
   "author": "Joshua P Mervine <joshua@mervine.net>",
   "license": "MIT",
   "dependencies": {
-    "js-yaml": "^3.1.0"
+    "js-yaml": "^3.2.0"
   },
   "devDependencies": {
-    "tape": "^2.13.4"
+    "tape": "^2.14.0"
   }
 }

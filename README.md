@@ -28,7 +28,7 @@ npm install maxconf.js
  *  callback(err, result)
  */
 
-var maxconf = require('maxconf');
+var maxconf = require('maxconf.js');
 
 /*
  * sync usage
