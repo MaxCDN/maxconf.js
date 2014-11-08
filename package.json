@@ -1,6 +1,6 @@
 {
   "name": "maxconf.js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A sub-stack lib for loading MaxCDN configuration files using the standard set forth by MaxCLI.",
   "main": "maxconf.js",
   "scripts": {

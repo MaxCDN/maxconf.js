@@ -1,7 +1,12 @@
+var path = require('path');
 var yaml = require('js-yaml');
 var fs   = require('fs');
 
-var defaultConfig = process.env.HOME + '/.maxcdn.yml';
+// windows 7 support
+// http://dailyjs.com/2012/05/24/windows-and-node-4/
+process.env.HOME = process.env.HOME || process.env.USERPROFILE;
+
+var defaultConfig = path.join(process.env.HOME, '.maxcdn.yml');
 
 /****
  * option: default   :: description
@@ -29,6 +34,10 @@ module.exports = function maxconf(opts, callback) {
 
     if (typeof opts === 'string') {
         opts = { file: opts };
+    }
+
+    if (typeof opts === 'undefined') {
+        opts = {};
     }
 
     var applyOverides = function applyOverides(res) {
